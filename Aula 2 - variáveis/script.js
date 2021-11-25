@@ -16,9 +16,9 @@ var nome = 'JavaScript';
 console.log(typeof(nome));
 
 //existem 3 modos de declarar variáveis no JavaScript
-/* var - escopo global e local;
-    let - escopo local de bloco;
-    const - escopo local de bloco; */
+var - escopo global e local;
+let - escopo local de bloco;
+const - escopo local de bloco;
 
 // como declarar
 var variavel
@@ -41,13 +41,12 @@ console.log(variavel2);
 const constante2 = 'JS';
 console.log(constante2); //retorna o valor inserido na variavel no console do navegador;
 
-/*const constante2 = 'JS';
+const constante2 = 'JS';
 constante2 ='JavaScript' //se fizer isso o console irá apresentar um erro, pois esse tipo de variável não pode ser reatribuida/ressignificada;
-console.log(constante2); //retorna o valor inserido na variavel no console do navegador;*/
+console.log(constante2); //retorna o valor inserido na variavel no console do navegador;
 
 //escopo
-
-/*var escopoGlobal ='global';
+var escopoGlobal ='global';
 console.log(escopoGlobal);
 
 function escopoLocal(){
@@ -65,7 +64,7 @@ function escopoLocal(){
 }
 
 escopoLocal();
-*/
+
 //Para declarar as variaveis use sempre o metodo camelCase. Não atribua metodos nativos do JavaScript a variaveis, pois não irá funcionar.
 //Não use espaços. Utilize camelCase ou underline ex(camelCase ou camel_case)
 
